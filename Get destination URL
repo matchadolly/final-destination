@@ -68,7 +68,7 @@ def resolve(url: str) -> Optional[str]:
 def _alfred_items(resolved: Optional[str], note: Optional[str]):
     """ 🩰 Builds Alfred's script filter JSON. 🩰 """
     if resolved:
-        subtitle = "↩︎ copy to clipboard • ⌘↩︎ open in browser"
+        subtitle = "↩︎ open in browser • ⌘↩︎ copy to clipboard"
         if note == "no_redirect":
             subtitle += " • Note: There are no redirects!"
         elif note == "https_only":
@@ -87,7 +87,7 @@ def _alfred_items(resolved: Optional[str], note: Optional[str]):
                 "cmd": {
                     "valid": True,
                     "arg": resolved,
-                    "subtitle": "⌘↩︎ open in browser",
+                    "subtitle": "⌘↩︎ copy to clipboard",
                 }
             }
         }]
