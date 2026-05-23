@@ -1,13 +1,13 @@
 <p align="center"><img src="https://github.com/user-attachments/assets/b461e03f-c7c7-4068-8d2c-b03712fca54c" width="15%"></p>
 
-# FinalDestination
+# Final Destination
 An Alfred workflow: Extracts the final destination of redirect or tracking URLs, by query parsing or curl-based resolution if the former fails.
 
 ## Note
 I made this so I'd be able to get the redirection results of Google ad links as they wouldn't work sometimes with when my adblocker is turned on. I've tested this out with `googleadservices.com` and `ad.doubleclick.net` links, but it should work with others too... (Hopefully).
 
 ## Setup
-1. Download the latest [.alfredworkflow release](https://github.com/matchadolly/FinalDestination/releases).
+1. Download the latest [.alfredworkflow release](https://github.com/matchadolly/final-destination/releases).
 2. Double click the downloaded file. It should open directly in Alfred.
 3. Configure the workflow by choosing your own keyword, if you'd like, then click Install.
 4. You are ALL SET!!
